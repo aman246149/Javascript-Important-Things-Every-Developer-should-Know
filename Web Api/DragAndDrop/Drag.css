@@ -1,0 +1,34 @@
+
+
+body{
+    background-color: wheat;
+}
+
+.imgBox img{
+    height: 145px;
+    width: 145px;
+    object-fit: contain;
+    padding: 5px;
+}
+.imgBox{
+    cursor: move;
+    border: black;
+    
+}
+
+.whiteBox{
+    display: inline-block;
+    height: 150px;
+    width: 160px;
+    background-color: white;
+    margin: 50px;
+    
+}
+
+.hold{
+    border: solid red 4px;
+}
+
+.hold{
+    display: none;
+}
